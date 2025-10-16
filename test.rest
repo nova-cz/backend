@@ -1,0 +1,27 @@
+//Este documento nos sirve para simular peticiones HTTP
+
+### TEST GET / WEBSITE
+
+GET http://localhost:8383
+
+
+### TEST GET / DASHBOARD
+
+GET http://localhost:8383/dashboard
+
+
+### TEST GET / API DATA
+GET http://localhost:8383/api/data
+
+## Tambien mis endpoint pueden tarer informacion que este por detras dle codigo la que no ve el usuario
+
+### DATA ENDPOINT FOR ADDING A USER
+POST http://localhost:8383/api/data
+Content-Type: application/json
+
+{
+    "name": "Julian"
+}
+
+### DELETE END POINT
+DELETE http://localhost:8383/api/data
